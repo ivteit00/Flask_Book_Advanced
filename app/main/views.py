@@ -11,8 +11,9 @@ from . import main
 @main.route('/', methods=['GET', 'POST'])
 def index() -> 'html':
     """Log-In-viewfunction"""
+    from .forms import LoginForm
 
-    return render_template('index.html')
+    return render_template('login.html', form=LoginForm())
 
 
 # MA-home-viewfunction
