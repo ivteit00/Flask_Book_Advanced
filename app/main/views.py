@@ -2,18 +2,12 @@
 from datetime import datetime
 
 # Third pary imports
-from flask import render_template, session, redirect, url_for
+from flask import render_template, session, redirect, url_for, request
 
 # Local application imports
 from . import main
 
 
-@main.route('/', methods=['GET', 'POST'])
-def index() -> 'html':
-    """Log-In-viewfunction"""
-    from .forms import LoginForm
-
-    return render_template('login.html', form=LoginForm())
 
 
 # MA-home-viewfunction

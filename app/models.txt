@@ -1,0 +1,16 @@
+Roles:
+1. user
+2. chef
+3. human_resources
+
+User:
+users:
+    1.
+    2.
+    3.
+chefs:
+    1.
+    2.
+human_resources
+    1.
+    2.
