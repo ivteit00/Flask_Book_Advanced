@@ -16,6 +16,9 @@ def index() -> 'html':
 
 
 # MA-home-viewfunction
+@main.route('/')
+def ma_home():
+    return '<h1>Mitarbeiter Home View'
 
 
 # MA-statistic-viewfunction
