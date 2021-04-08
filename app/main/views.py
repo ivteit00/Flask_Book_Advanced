@@ -1,13 +1,12 @@
 # Standard libary imports
 from datetime import datetime
+from functools import wraps
 
 # Third pary imports
 from flask import render_template, session, redirect, url_for, request
 
 # Local application imports
 from . import main
-
-
 
 
 # MA-home-viewfunction
